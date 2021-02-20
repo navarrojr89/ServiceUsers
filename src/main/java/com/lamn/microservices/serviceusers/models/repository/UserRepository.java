@@ -19,6 +19,6 @@ public interface UserRepository extends PagingAndSortingRepository<User, Long> {
      * @return the user
      */
     @RestResource(path = "find-username")
-    User findByUsername(@Param("name") String username);
+    User findByUsername(@Param("username") String username);
 
 }
