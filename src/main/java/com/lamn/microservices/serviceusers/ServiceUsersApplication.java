@@ -2,10 +2,12 @@ package com.lamn.microservices.serviceusers;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 /**
  * The type Users service application.
  */
+@EntityScan({"com.lamn.microservices.userscommons.models.entity"})
 @SpringBootApplication
 public class ServiceUsersApplication {
 
