@@ -13,7 +13,7 @@
 	<groupId>com.lamn.microservices</groupId>
 	<artifactId>service-users</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<name>Users Service</name>
+	<name>ServiceUsers</name>
 	<description>Handles the users of the platform</description>
 
 	<properties>
